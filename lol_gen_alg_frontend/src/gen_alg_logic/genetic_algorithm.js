@@ -11,6 +11,7 @@ export default class GeneticAlgorithm {
     this.crossover_rate = crossover_rate;
     this.enemy_team_comp = enemy_team_comp;
     this.best_individuals = [];
+    this.iteration_data = [];
     this.average_fitness = 0;
 
     this.population = [];
@@ -96,24 +97,28 @@ export default class GeneticAlgorithm {
     this.population = new_generation;
   }
 
-  calculate_best(){
+  calculate_best(n_generation){
     // Calculate average fitness
     var avg_fitness = 0
     for (let i = 0; i < this.population.length; i++){
       avg_fitness = avg_fitness + this.population[i].fitness;
     }
     this.average_fitness = avg_fitness/this.population.length;
+    this.iteration_data.push({
+      generation: n_generation,
+      fitness: this.average_fitness
+    });
     // Keep list of 10 best individuals.
     this.best_individuals = this.best_individuals.concat(this.population);
     this.best_individuals = this.best_individuals.sort((a,b) => (a.fitness > b.fitness) ? -1 : 1);
     this.best_individuals = this.best_individuals.slice(0,10);
   }
 
-  iterate_population(){
+  iterate_population(n_generation){
     this.crossover();
     this.mutate();
     this.selection_tournament();
-    this.calculate_best();
+    this.calculate_best(n_generation);
   }
 
 }

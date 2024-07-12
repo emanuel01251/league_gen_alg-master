@@ -53,7 +53,7 @@ function create_enemy_team_comp(champion_ids, champ_info){
 
 function run_gen_alg(gen_alg, generations){
   for (let i = 0; i < generations; i++){
-    gen_alg.iterate_population()
+    gen_alg.iterate_population(i)
   }
 }
 
@@ -71,4 +71,6 @@ export function full_gen_alg(enemy_ids, params){
     
     graph_average_fitness: gen_alg.average_fitness,
     graph_num_generations: params.generations,
+
+    iteration_data: gen_alg.iteration_data
   }}

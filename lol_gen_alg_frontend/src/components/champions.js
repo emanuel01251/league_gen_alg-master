@@ -25,6 +25,7 @@ export default class ChampionList extends Component{
 			count:0,
 			show_graph: false,
 			graph_data: util.get_graph_data(winrate_data),
+      iteration_data: [],
 			gen_alg: {
 				meta: true,
 				population: 100,
@@ -113,7 +114,9 @@ export default class ChampionList extends Component{
 	}
 
 	lock_team(){
-		this.setState({loading: true}, () => setTimeout(this.select_team.bind(this), 0))
+		this.setState({loading: true}, () =>
+      setTimeout(this.select_team.bind(this), 0)
+    )
 	}
 
 	reset_teams(){
@@ -159,13 +162,14 @@ export default class ChampionList extends Component{
 				loading: false,
 				returned_champs:team,
 				fitness: results.fitness,
+        iteration_data: results.iteration_data,
 				graph_data: {
 					...this.state.graph_data,
 					counter_team_wr: counter_team_wr,
 					final_team_wr: final_team_wr,
 					
 					graph_num_generations: results.graph_num_generations,
-					graph_average_fitness: results.graph_average_fitness
+					graph_average_fitness: results.graph_average_fitness,
 				}
 			})
 	}
@@ -323,7 +327,7 @@ export default class ChampionList extends Component{
 						graph_data = {this.state.graph_data}
 					/>
 				</div>
-				<LineChart />
+				<LineChart iteration_data = {this.state.iteration_data}/>
 			</div>
 		)
 	}
