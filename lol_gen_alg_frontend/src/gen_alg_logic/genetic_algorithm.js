@@ -93,7 +93,6 @@ export default class GeneticAlgorithm {
         new_generation.push(cloneDeep(this.population[temp_index]));
       }
     }
-
     this.population = new_generation;
   }
 
@@ -104,14 +103,15 @@ export default class GeneticAlgorithm {
       avg_fitness = avg_fitness + this.population[i].fitness;
     }
     this.average_fitness = avg_fitness/this.population.length;
-    this.iteration_data.push({
-      generations: n_generation,
-      fitness: this.average_fitness
-    });
+    
     // Keep list of 10 best individuals.
     this.best_individuals = this.best_individuals.concat(this.population);
     this.best_individuals = this.best_individuals.sort((a,b) => (a.fitness > b.fitness) ? -1 : 1);
     this.best_individuals = this.best_individuals.slice(0,10);
+    this.iteration_data.push({
+      generations: n_generation,
+      fitness: this.best_individuals[0].fitness
+    });
   }
 
   iterate_population(n_generation){
