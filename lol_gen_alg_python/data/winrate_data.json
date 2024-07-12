@@ -1,0 +1,802 @@
+[
+    {
+        "winrate": 40.0,
+        "total": 0
+    },
+    {
+        "winrate": 40.1,
+        "total": 0
+    },
+    {
+        "winrate": 40.2,
+        "total": 0
+    },
+    {
+        "winrate": 40.3,
+        "total": 0
+    },
+    {
+        "winrate": 40.4,
+        "total": 0
+    },
+    {
+        "winrate": 40.5,
+        "total": 0
+    },
+    {
+        "winrate": 40.6,
+        "total": 0
+    },
+    {
+        "winrate": 40.7,
+        "total": 0
+    },
+    {
+        "winrate": 40.8,
+        "total": 0
+    },
+    {
+        "winrate": 40.9,
+        "total": 0
+    },
+    {
+        "winrate": 41.0,
+        "total": 0
+    },
+    {
+        "winrate": 41.1,
+        "total": 0
+    },
+    {
+        "winrate": 41.2,
+        "total": 0
+    },
+    {
+        "winrate": 41.3,
+        "total": 0
+    },
+    {
+        "winrate": 41.4,
+        "total": 0
+    },
+    {
+        "winrate": 41.5,
+        "total": 0
+    },
+    {
+        "winrate": 41.6,
+        "total": 0
+    },
+    {
+        "winrate": 41.7,
+        "total": 0
+    },
+    {
+        "winrate": 41.8,
+        "total": 0
+    },
+    {
+        "winrate": 41.9,
+        "total": 0
+    },
+    {
+        "winrate": 42.0,
+        "total": 0
+    },
+    {
+        "winrate": 42.1,
+        "total": 0
+    },
+    {
+        "winrate": 42.2,
+        "total": 0
+    },
+    {
+        "winrate": 42.3,
+        "total": 0
+    },
+    {
+        "winrate": 42.4,
+        "total": 0
+    },
+    {
+        "winrate": 42.5,
+        "total": 0
+    },
+    {
+        "winrate": 42.6,
+        "total": 0
+    },
+    {
+        "winrate": 42.7,
+        "total": 0
+    },
+    {
+        "winrate": 42.8,
+        "total": 0
+    },
+    {
+        "winrate": 42.9,
+        "total": 0
+    },
+    {
+        "winrate": 43.0,
+        "total": 0
+    },
+    {
+        "winrate": 43.1,
+        "total": 0
+    },
+    {
+        "winrate": 43.2,
+        "total": 0
+    },
+    {
+        "winrate": 43.3,
+        "total": 0
+    },
+    {
+        "winrate": 43.4,
+        "total": 0
+    },
+    {
+        "winrate": 43.5,
+        "total": 0
+    },
+    {
+        "winrate": 43.6,
+        "total": 0
+    },
+    {
+        "winrate": 43.7,
+        "total": 0
+    },
+    {
+        "winrate": 43.8,
+        "total": 0
+    },
+    {
+        "winrate": 43.9,
+        "total": 0
+    },
+    {
+        "winrate": 44.0,
+        "total": 0
+    },
+    {
+        "winrate": 44.1,
+        "total": 0
+    },
+    {
+        "winrate": 44.2,
+        "total": 2
+    },
+    {
+        "winrate": 44.3,
+        "total": 4
+    },
+    {
+        "winrate": 44.4,
+        "total": 20
+    },
+    {
+        "winrate": 44.5,
+        "total": 26
+    },
+    {
+        "winrate": 44.6,
+        "total": 62
+    },
+    {
+        "winrate": 44.7,
+        "total": 118
+    },
+    {
+        "winrate": 44.8,
+        "total": 185
+    },
+    {
+        "winrate": 44.9,
+        "total": 365
+    },
+    {
+        "winrate": 45.0,
+        "total": 600
+    },
+    {
+        "winrate": 45.1,
+        "total": 998
+    },
+    {
+        "winrate": 45.2,
+        "total": 1619
+    },
+    {
+        "winrate": 45.3,
+        "total": 2518
+    },
+    {
+        "winrate": 45.4,
+        "total": 3795
+    },
+    {
+        "winrate": 45.5,
+        "total": 5698
+    },
+    {
+        "winrate": 45.6,
+        "total": 8475
+    },
+    {
+        "winrate": 45.7,
+        "total": 12697
+    },
+    {
+        "winrate": 45.8,
+        "total": 17823
+    },
+    {
+        "winrate": 45.9,
+        "total": 24984
+    },
+    {
+        "winrate": 46.0,
+        "total": 35066
+    },
+    {
+        "winrate": 46.1,
+        "total": 48449
+    },
+    {
+        "winrate": 46.2,
+        "total": 66761
+    },
+    {
+        "winrate": 46.3,
+        "total": 89211
+    },
+    {
+        "winrate": 46.4,
+        "total": 116449
+    },
+    {
+        "winrate": 46.5,
+        "total": 155957
+    },
+    {
+        "winrate": 46.6,
+        "total": 203469
+    },
+    {
+        "winrate": 46.7,
+        "total": 267879
+    },
+    {
+        "winrate": 46.8,
+        "total": 340426
+    },
+    {
+        "winrate": 46.9,
+        "total": 426230
+    },
+    {
+        "winrate": 47.0,
+        "total": 548251
+    },
+    {
+        "winrate": 47.1,
+        "total": 687358
+    },
+    {
+        "winrate": 47.2,
+        "total": 873715
+    },
+    {
+        "winrate": 47.3,
+        "total": 1069540
+    },
+    {
+        "winrate": 47.4,
+        "total": 1298160
+    },
+    {
+        "winrate": 47.5,
+        "total": 1614845
+    },
+    {
+        "winrate": 47.6,
+        "total": 1968428
+    },
+    {
+        "winrate": 47.7,
+        "total": 2428364
+    },
+    {
+        "winrate": 47.8,
+        "total": 2889586
+    },
+    {
+        "winrate": 47.9,
+        "total": 3408039
+    },
+    {
+        "winrate": 48.0,
+        "total": 4119844
+    },
+    {
+        "winrate": 48.1,
+        "total": 4877096
+    },
+    {
+        "winrate": 48.2,
+        "total": 5839491
+    },
+    {
+        "winrate": 48.3,
+        "total": 6731683
+    },
+    {
+        "winrate": 48.4,
+        "total": 7692563
+    },
+    {
+        "winrate": 48.5,
+        "total": 8992356
+    },
+    {
+        "winrate": 48.6,
+        "total": 10283282
+    },
+    {
+        "winrate": 48.7,
+        "total": 11863398
+    },
+    {
+        "winrate": 48.8,
+        "total": 13157885
+    },
+    {
+        "winrate": 48.9,
+        "total": 14448475
+    },
+    {
+        "winrate": 49.0,
+        "total": 16198060
+    },
+    {
+        "winrate": 49.1,
+        "total": 17735106
+    },
+    {
+        "winrate": 49.2,
+        "total": 19531119
+    },
+    {
+        "winrate": 49.3,
+        "total": 20643184
+    },
+    {
+        "winrate": 49.4,
+        "total": 21563907
+    },
+    {
+        "winrate": 49.5,
+        "total": 22970054
+    },
+    {
+        "winrate": 49.6,
+        "total": 23822559
+    },
+    {
+        "winrate": 49.7,
+        "total": 24799609
+    },
+    {
+        "winrate": 49.8,
+        "total": 24715552
+    },
+    {
+        "winrate": 49.9,
+        "total": 24319280
+    },
+    {
+        "winrate": 50.0,
+        "total": 24346588
+    },
+    {
+        "winrate": 50.1,
+        "total": 23680192
+    },
+    {
+        "winrate": 50.2,
+        "total": 23048765
+    },
+    {
+        "winrate": 50.3,
+        "total": 21435559
+    },
+    {
+        "winrate": 50.4,
+        "total": 19660479
+    },
+    {
+        "winrate": 50.5,
+        "total": 18312954
+    },
+    {
+        "winrate": 50.6,
+        "total": 16543645
+    },
+    {
+        "winrate": 50.7,
+        "total": 14909292
+    },
+    {
+        "winrate": 50.8,
+        "total": 12823990
+    },
+    {
+        "winrate": 50.9,
+        "total": 10868364
+    },
+    {
+        "winrate": 51.0,
+        "total": 9349531
+    },
+    {
+        "winrate": 51.1,
+        "total": 7778507
+    },
+    {
+        "winrate": 51.2,
+        "total": 6454989
+    },
+    {
+        "winrate": 51.3,
+        "total": 5093193
+    },
+    {
+        "winrate": 51.4,
+        "total": 3947126
+    },
+    {
+        "winrate": 51.5,
+        "total": 3132692
+    },
+    {
+        "winrate": 51.6,
+        "total": 2385047
+    },
+    {
+        "winrate": 51.7,
+        "total": 1813545
+    },
+    {
+        "winrate": 51.8,
+        "total": 1299780
+    },
+    {
+        "winrate": 51.9,
+        "total": 918798
+    },
+    {
+        "winrate": 52.0,
+        "total": 663017
+    },
+    {
+        "winrate": 52.1,
+        "total": 457451
+    },
+    {
+        "winrate": 52.2,
+        "total": 314100
+    },
+    {
+        "winrate": 52.3,
+        "total": 202439
+    },
+    {
+        "winrate": 52.4,
+        "total": 128336
+    },
+    {
+        "winrate": 52.5,
+        "total": 82532
+    },
+    {
+        "winrate": 52.6,
+        "total": 50471
+    },
+    {
+        "winrate": 52.7,
+        "total": 30671
+    },
+    {
+        "winrate": 52.8,
+        "total": 17085
+    },
+    {
+        "winrate": 52.9,
+        "total": 9400
+    },
+    {
+        "winrate": 53.0,
+        "total": 5180
+    },
+    {
+        "winrate": 53.1,
+        "total": 2662
+    },
+    {
+        "winrate": 53.2,
+        "total": 1342
+    },
+    {
+        "winrate": 53.3,
+        "total": 599
+    },
+    {
+        "winrate": 53.4,
+        "total": 266
+    },
+    {
+        "winrate": 53.5,
+        "total": 106
+    },
+    {
+        "winrate": 53.6,
+        "total": 37
+    },
+    {
+        "winrate": 53.7,
+        "total": 16
+    },
+    {
+        "winrate": 53.8,
+        "total": 3
+    },
+    {
+        "winrate": 53.9,
+        "total": 0
+    },
+    {
+        "winrate": 54.0,
+        "total": 0
+    },
+    {
+        "winrate": 54.1,
+        "total": 0
+    },
+    {
+        "winrate": 54.2,
+        "total": 0
+    },
+    {
+        "winrate": 54.3,
+        "total": 0
+    },
+    {
+        "winrate": 54.4,
+        "total": 0
+    },
+    {
+        "winrate": 54.5,
+        "total": 0
+    },
+    {
+        "winrate": 54.6,
+        "total": 0
+    },
+    {
+        "winrate": 54.7,
+        "total": 0
+    },
+    {
+        "winrate": 54.8,
+        "total": 0
+    },
+    {
+        "winrate": 54.9,
+        "total": 0
+    },
+    {
+        "winrate": 55.0,
+        "total": 0
+    },
+    {
+        "winrate": 55.1,
+        "total": 0
+    },
+    {
+        "winrate": 55.2,
+        "total": 0
+    },
+    {
+        "winrate": 55.3,
+        "total": 0
+    },
+    {
+        "winrate": 55.4,
+        "total": 0
+    },
+    {
+        "winrate": 55.5,
+        "total": 0
+    },
+    {
+        "winrate": 55.6,
+        "total": 0
+    },
+    {
+        "winrate": 55.7,
+        "total": 0
+    },
+    {
+        "winrate": 55.8,
+        "total": 0
+    },
+    {
+        "winrate": 55.9,
+        "total": 0
+    },
+    {
+        "winrate": 56.0,
+        "total": 0
+    },
+    {
+        "winrate": 56.1,
+        "total": 0
+    },
+    {
+        "winrate": 56.2,
+        "total": 0
+    },
+    {
+        "winrate": 56.3,
+        "total": 0
+    },
+    {
+        "winrate": 56.4,
+        "total": 0
+    },
+    {
+        "winrate": 56.5,
+        "total": 0
+    },
+    {
+        "winrate": 56.6,
+        "total": 0
+    },
+    {
+        "winrate": 56.7,
+        "total": 0
+    },
+    {
+        "winrate": 56.8,
+        "total": 0
+    },
+    {
+        "winrate": 56.9,
+        "total": 0
+    },
+    {
+        "winrate": 57.0,
+        "total": 0
+    },
+    {
+        "winrate": 57.1,
+        "total": 0
+    },
+    {
+        "winrate": 57.2,
+        "total": 0
+    },
+    {
+        "winrate": 57.3,
+        "total": 0
+    },
+    {
+        "winrate": 57.4,
+        "total": 0
+    },
+    {
+        "winrate": 57.5,
+        "total": 0
+    },
+    {
+        "winrate": 57.6,
+        "total": 0
+    },
+    {
+        "winrate": 57.7,
+        "total": 0
+    },
+    {
+        "winrate": 57.8,
+        "total": 0
+    },
+    {
+        "winrate": 57.9,
+        "total": 0
+    },
+    {
+        "winrate": 58.0,
+        "total": 0
+    },
+    {
+        "winrate": 58.1,
+        "total": 0
+    },
+    {
+        "winrate": 58.2,
+        "total": 0
+    },
+    {
+        "winrate": 58.3,
+        "total": 0
+    },
+    {
+        "winrate": 58.4,
+        "total": 0
+    },
+    {
+        "winrate": 58.5,
+        "total": 0
+    },
+    {
+        "winrate": 58.6,
+        "total": 0
+    },
+    {
+        "winrate": 58.7,
+        "total": 0
+    },
+    {
+        "winrate": 58.8,
+        "total": 0
+    },
+    {
+        "winrate": 58.9,
+        "total": 0
+    },
+    {
+        "winrate": 59.0,
+        "total": 0
+    },
+    {
+        "winrate": 59.1,
+        "total": 0
+    },
+    {
+        "winrate": 59.2,
+        "total": 0
+    },
+    {
+        "winrate": 59.3,
+        "total": 0
+    },
+    {
+        "winrate": 59.4,
+        "total": 0
+    },
+    {
+        "winrate": 59.5,
+        "total": 0
+    },
+    {
+        "winrate": 59.6,
+        "total": 0
+    },
+    {
+        "winrate": 59.7,
+        "total": 0
+    },
+    {
+        "winrate": 59.8,
+        "total": 0
+    },
+    {
+        "winrate": 59.9,
+        "total": 0
+    }
+]
