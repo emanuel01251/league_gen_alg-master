@@ -11,7 +11,6 @@ export default class Header extends React.Component {
               <Title> LoL DNA </Title>
               <div style={{margin: 10}}><Text> A Genetic Algorithm-Based Method for Team Composition in League of Legends </Text></div>
               <div style={{margin: 10}}>
-                (Patch 10.3)
               </div>
             </div>
          )}

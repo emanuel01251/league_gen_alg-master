@@ -7,7 +7,7 @@ export default class Champion {
 		this.total_games = total_games;
 
 	}
-
+	//confidence score
 	check_winrate(id_to_check){
 		let z = 1.96;
 		var champion = this.matchups[id_to_check];
