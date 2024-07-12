@@ -67,20 +67,6 @@ html {
   background: whitesmoke;
 }
 
-.footer_div {
-  text-align: left;
-  display: block;
-  margin: auto;
-  padding: 20px;
-  background: whitesmoke;
-}
-
-.footer_image {
-  max-height: 300px;
-  max-width: 100%;
-  margin: auto;
-}
-
 .info_div {
   background: #fff;
   padding: 24px;

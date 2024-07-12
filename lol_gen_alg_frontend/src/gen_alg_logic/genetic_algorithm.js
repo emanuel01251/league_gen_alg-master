@@ -105,7 +105,7 @@ export default class GeneticAlgorithm {
     }
     this.average_fitness = avg_fitness/this.population.length;
     this.iteration_data.push({
-      generation: n_generation,
+      generations: n_generation,
       fitness: this.average_fitness
     });
     // Keep list of 10 best individuals.

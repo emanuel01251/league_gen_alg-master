@@ -25,7 +25,7 @@ export default class ChampionList extends Component{
 			count:0,
 			show_graph: false,
 			graph_data: util.get_graph_data(winrate_data),
-      iteration_data: [],
+      		iteration_data: [],
 			gen_alg: {
 				meta: true,
 				population: 100,
@@ -162,7 +162,7 @@ export default class ChampionList extends Component{
 				loading: false,
 				returned_champs:team,
 				fitness: results.fitness,
-        iteration_data: results.iteration_data,
+        		iteration_data: results.iteration_data,
 				graph_data: {
 					...this.state.graph_data,
 					counter_team_wr: counter_team_wr,

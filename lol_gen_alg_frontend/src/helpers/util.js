@@ -50,8 +50,6 @@ export function get_graph_data(winrate_data){
   for (var i in winrate_data) {
 
   	// include non 0 data
-  	// if (winrate_data[i]['total'] !== 0){
-      // update values
     let val = Math.round(winrate_data[i]['total']/total_comps * 10000) / 100
     percentile = Math.round((percentile + val) * 1000)/1000
 
@@ -88,8 +86,6 @@ export function get_graph_data(winrate_data){
 			y: null,
 			x: winrate_data[i]['winrate'],
 		})
-
-  	// }
   }
   return {
       clear_data: team_wr,
@@ -139,20 +135,13 @@ export function get_final_team_percentile(champions){
   */
   let avg_winrate = 0;
   for (var champ of champions) {
-    // let games_won = 0;
-    // let total_games = 0;
     var temp_winrate = 0;
     var count = 0;
     for (var id in champ.matchups) {
-      // games_won += champ.matchups[id].games * champ.matchups[id].winrate;
-      // total_games += champ.matchups[id].games;
 
-      // temp stuff
       temp_winrate += champ.matchups[id].winrate;
       count += 1
     }
-    // var winrate = games_won/total_games;
-    // avg_winrate += winrate
     avg_winrate += temp_winrate/count;
   }
   avg_winrate = avg_winrate / champions.length;

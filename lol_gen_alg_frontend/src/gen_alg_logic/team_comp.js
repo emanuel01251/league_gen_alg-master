@@ -37,13 +37,6 @@ export default class TeamComp {
   }
 
   calculate_fitness(enemy_team_comp) {
-    /*
-    For all champions on your team, check their winrates
-    against the given enemy team's champions. Take average of all
-    available win rates (some might not have information)
-    multiply that by the log base 10 of all with information.
-    This will make teams with more information have a better fitness.
-		*/
     var avg_winrate = 0;
     var total_calculated = 0;
     this.champions.forEach(function(your_champion, your_index) {
@@ -62,8 +55,6 @@ export default class TeamComp {
   is_on_team(champion_id) {
     /*
     Given a champion_id, check if it is on current team
-    :param champion_id: ID to check for
-    :return: true if on team, else false
 		*/
     this.champions.forEach(function(item, index) {
       if (champion_id === item.id) {

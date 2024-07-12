@@ -10,9 +10,9 @@ export default class Mychart extends React.Component {
          <Panel style={{borderBottomWidth: "0px"}} header="Advanced Options" key="1">
            <div className="center_div" style={{textAlign: 'left'}}>
              <Row  style={{marginBottom: 10}}>
-               <Col span={12}>
+               {/* <Col span={12}>
                  <Checkbox onChange={() => this.props.update(!this.props.params.meta, "meta")} checked={this.props.params.meta}>Meta Team Comp?</Checkbox>
-               </Col>
+               </Col> */}
              </Row>
              <p style={{margin: 0}}> Population Size </p>
              <Row style={{marginBottom: 10}}>
@@ -58,5 +58,3 @@ export default class Mychart extends React.Component {
      )
    }
 }
-
-// /*<Checkbox onChange={this.change_meta.bind(this)} checked={this.state.meta}>Meta Team Comp?</Checkbox>*/

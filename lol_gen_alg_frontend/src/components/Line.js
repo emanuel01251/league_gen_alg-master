@@ -9,15 +9,6 @@ import {
   YAxis,
 } from "recharts";
 
-const data = [
-  { generations: "2017", fitness: 32 },
-  { generations: "2018", fitness: 42 },
-  { generations: "2019", fitness: 51 },
-  { generations: "2020", fitness: 60 },
-  { generations: "2021", fitness: 51 },
-  { generations: "2022", fitness: 95 }
-];
-
 const RechartsExample = ({ iteration_data }) => {
   return (
     <div>
